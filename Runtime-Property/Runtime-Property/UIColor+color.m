@@ -7,8 +7,7 @@
 //
 
 #import "UIColor+color.h"
-#import <objc/objc-runtime.h>
-
+#import <objc/runtime.h>
 static NSString const *gold_color_key = @"gold_color_key";
 
 @implementation UIColor (color)

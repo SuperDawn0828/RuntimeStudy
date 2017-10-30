@@ -12,7 +12,7 @@
 
 @interface LMProperty : NSObject
 
-@property (nonatomic, assign) objc_property_t property;
+@property (nonatomic, assign, readonly) objc_property_t property;
 
 @property (nonatomic, strong, readonly) NSString *name;
 

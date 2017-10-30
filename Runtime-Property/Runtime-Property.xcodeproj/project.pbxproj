@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E238885B1F73AC0D003DF807 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = E238885A1F73AC0D003DF807 /* NSObject+Property.m */; };
 		E2DCFD201F726CE600241778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DCFD1F1F726CE600241778 /* main.m */; };
 		E2DCFD231F726CE600241778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DCFD221F726CE600241778 /* AppDelegate.m */; };
 		E2DCFD261F726CE600241778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DCFD251F726CE600241778 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E23888591F73AC0D003DF807 /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		E238885A1F73AC0D003DF807 /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		E2DCFD1B1F726CE600241778 /* Runtime-Property.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtime-Property.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DCFD1F1F726CE600241778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2DCFD211F726CE600241778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				E2DCFD221F726CE600241778 /* AppDelegate.m */,
 				E2DCFD241F726CE600241778 /* ViewController.h */,
 				E2DCFD251F726CE600241778 /* ViewController.m */,
+				E23888591F73AC0D003DF807 /* NSObject+Property.h */,
+				E238885A1F73AC0D003DF807 /* NSObject+Property.m */,
 				E2DCFD351F726CF900241778 /* MusicAlbum.h */,
 				E2DCFD361F726CF900241778 /* MusicAlbum.m */,
 				E2DCFD381F726D0000241778 /* UIColor+color.h */,
@@ -164,6 +169,7 @@
 				E2DCFD371F726CF900241778 /* MusicAlbum.m in Sources */,
 				E2DCFD231F726CE600241778 /* AppDelegate.m in Sources */,
 				E2DCFD201F726CE600241778 /* main.m in Sources */,
+				E238885B1F73AC0D003DF807 /* NSObject+Property.m in Sources */,
 				E2DCFD3A1F726D0000241778 /* UIColor+color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +329,7 @@
 				E2DCFD341F726CE600241778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

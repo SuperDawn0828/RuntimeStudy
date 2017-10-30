@@ -10,6 +10,8 @@
 
 @interface LMProperty ()
 
+@property (nonatomic, assign, readwrite) objc_property_t property;
+
 @property (nonatomic, strong, readwrite) NSString *name;
 
 @property (nonatomic, strong, readwrite) LMPropertyType *type;

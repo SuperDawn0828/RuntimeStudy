@@ -10,6 +10,7 @@
 #import <objc/runtime.h>
 #import "MusicAlbum.h"
 #import "UIColor+color.h"
+#import "NSObject+Property.h"
 
 @interface ViewController ()
 
@@ -46,5 +47,11 @@
         NSLog(@"ivar name is: %@,-----> type is: %@", ivarName, ivarType);
     }
 }
+
+- (IBAction)buttonThreeAction:(UIButton *)sender {
+    NSArray *array = [MusicAlbum objectPropertyAndType];
+    NSLog(@"array %@", array);
+}
+
 
 @end
